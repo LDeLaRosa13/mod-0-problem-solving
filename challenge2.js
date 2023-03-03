@@ -2,9 +2,11 @@
 // begin with words that have both uppercase and lowercase
 // all words need printed but changed to all lowercase
 // Working with an array that consists of multiple strings
-// may need to establish a variable, define elements
-
+// establish a variable, define elements, write a for statement, add a method
+// potentially google syntax help
+// refactored from i < 5; --it printed the correct answer with an error message for toLowerCase. Changed
+// to i < 4 and good to go!
 var names = ["James", "lauren", "Chase", "AlLiSoN"]
-for( var i = 0; i < 5; i++) {
+for (i = 0; i < 4; i++) {
     console.log(names[i].toLowerCase());
 }
